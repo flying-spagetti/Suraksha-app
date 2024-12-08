@@ -29,38 +29,3 @@ Prerequisites
 Frontend: Node.js, npm/yarn.
 Backend: Java 17+, Maven/Gradle.
 Database: MySQL/PostgreSQL/H2.
-Installation
-Frontend
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/yourusername/domestic-violence-support.git
-cd domestic-violence-support/frontend
-Install dependencies:
-bash
-Copy code
-npm install
-Start the development server:
-bash
-Copy code
-npm run dev
-Backend
-Navigate to the backend directory:
-bash
-Copy code
-cd domestic-violence-support/backend
-Configure application.properties for your database:
-properties
-Copy code
-spring.datasource.url=jdbc:mysql://localhost:3306/domestic_support
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
-Build and run the project:
-bash
-Copy code
-mvn spring-boot:run
-API Endpoints
-POST /api/reports: Submit a new report.
-GET /api/reports: Retrieve all reports.
-GET /api/reports/home: Redirect to the homepage.
