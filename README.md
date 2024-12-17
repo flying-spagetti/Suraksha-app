@@ -48,5 +48,5 @@ This project is a web-based application designed to provide comprehensive suppor
 #### Frontend  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/domestic-violence-support.git
-   cd domestic-violence-support/frontend
+   git clone https://github.com/yourusername/suraksha-app.git
+   cd suraksha-app
